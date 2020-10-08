@@ -11,6 +11,8 @@ body {
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
 
+
+/* Topo da Página */
 header {
     width: 80%;
     margin: 0 auto;
@@ -59,6 +61,8 @@ button{
     padding: 11px 12px 9px 12px;
 } */
 
+
+/* Seção Principal */
 .middle-section {
     margin: 0 auto;
     font-family: 'Google Sans';
@@ -70,17 +74,14 @@ button{
 #google {
     padding-top: 40px;
     font-size: 50px;
-    margin: 5px;
 }
 
 #extended {
     font-size: 45px;
-    margin: 0px;
 }
 
 #ilheus {
     font-size: 16px;
-    margin: 10px;
     padding-bottom: 25px;
 }
 
@@ -94,13 +95,11 @@ ul a {
 
 #io18 {
     font-size: 14px;
-    margin: 7px;
     padding-top: 25px;
 }
 
 #ioilheus {
     font-size: 14px;
-    margin: 0 0 125px 0;
 }
 
 .info {
