@@ -63,6 +63,7 @@ button{
 
 
 /* Seção Principal */
+
 .middle-section {
     margin: 0 auto;
     font-family: 'Google Sans';
@@ -73,19 +74,21 @@ button{
 
 #google {
     padding-top: 40px;
-    font-size: 50px;
+    font-size: 45px;
+    margin: 10px 0 25px 0;
 }
 
 #extended {
     font-size: 45px;
+    margin: 10px 0 10px 0 ;
 }
 
 #ilheus {
     font-size: 16px;
     padding-bottom: 25px;
+    margin: 5px 0 5px 0;
 }
-
-ul a {
+a {
     text-decoration: none;
     text-transform: uppercase;
     background: #526CFD;
@@ -96,15 +99,18 @@ ul a {
 #io18 {
     font-size: 14px;
     padding-top: 25px;
+    margin: 10px 0 0 0;
 }
 
 #ioilheus {
     font-size: 14px;
+    margin: 5px 0 40px 0px;
 }
 
 .info {
     position: relative;
     margin-left: 8%;
+    
 }
 
 .info2 {
