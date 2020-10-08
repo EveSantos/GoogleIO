@@ -13,6 +13,8 @@ body {
 
 
 /* Topo da Página */
+
+
 header {
     width: 80%;
     margin: 0 auto;
@@ -62,7 +64,9 @@ button{
 } */
 
 
+
 /* Seção Principal */
+
 
 .middle-section {
     margin: 0 auto;
@@ -88,7 +92,7 @@ button{
     padding-bottom: 25px;
     margin: 5px 0 5px 0;
 }
-a {
+.subscribe {
     text-decoration: none;
     text-transform: uppercase;
     background: #526CFD;
@@ -107,43 +111,54 @@ a {
     margin: 5px 0 40px 0px;
 }
 
-.info {
-    position: relative;
-    margin-left: 8%;
-    
+
+/* Seção de Informções do evento */
+
+
+.info-section {
+    padding-top: 50px;
+    display: flex;
+    margin: 0 auto;
+    z-index: 1;
+    justify-content: center;
+
 }
 
-.info2 {
+.first-text {
     position: absolute;
     box-sizing: border-box;
-    padding: 35px 35px 35px 35px;
-    margin: auto 100px;
+    padding: 200px;
+    z-index: 1;
+    margin: 0;
+
 }
 
-.info p {
-    display: inline-block;
+.info-section p {
     color: #707070;
     font-size: 31px;
     font-family: 'Google Sans';
     background: #FFD500;
-    padding: 55px 55px 55px 55px;
-    width: 40%;
-    height: 43%;
+    padding: 80px 40px 80px 40px;
+    max-width: 550px;
     text-align: right;
+    left: 9%;
 }
 
-.img {
-    width: 50%;
-    margin: 80px 10px 0 500px;
+.first-img {
+    position: relative;
+    padding-top: 274px;
+    width: 300px;
+    
 }
 
-.img2 {
-    position: absolute;
-    margin-top: 235px;
-    margin-left: 160px;
-    width: 20%;
+.second-img {
+    width: 60%;
 
 }
+
+
+/* Seção de Localização do Evento */
+
 
 .info3 {
     position: absolute;
@@ -224,4 +239,8 @@ footer {
     color: #BDBDBD;
     padding: 30px 40px 40px 40px;
     margin-left: 80%;
+}
+
+.icon{
+    color: #BDBDBD;
 }
