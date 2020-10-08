@@ -160,12 +160,13 @@ button{
 /* Seção de Localização do Evento */
 
 
-.info3 {
+.second-text {
     position: absolute;
     box-sizing: border-box;
     padding: 25px 25px 25px 25px;
     margin: 0 100px;
     margin-left: 47%;
+    z-index: 1;
 }
 
 .mapa {
@@ -178,7 +179,6 @@ button{
     color: #ffffff;
     font-size: 30px;
     background: #526CFD;
-    padding: 3% 3% 3% 3%;
     width: 34%;
     height: 30%;
     text-align: left;
