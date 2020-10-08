@@ -67,7 +67,7 @@ form{
     box-sizing: border-box;
     height: 1005px;
     width: 500px;  
-    margin-left: 32%;  
+    margin:0 auto;  
     border: 2px solid #000000;
 }
 .cadastromini{

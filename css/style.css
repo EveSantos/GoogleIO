@@ -232,9 +232,13 @@ button{
     width: 30%;
 }
 
+
+/* Seção Inferior da Page */
+
+
 footer {
     box-sizing: border-box;
-    height: 90px;
+    height: 100%;
     font-size: 20px;
     color: #BDBDBD;
     padding: 30px 40px 40px 40px;
