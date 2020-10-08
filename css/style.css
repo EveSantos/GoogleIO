@@ -1,0 +1,221 @@
+body {
+    top: 0px;
+    left: 0px;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Google Sans';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+button{
+    height: 80%;
+    color: #FFFFFF;
+    background-color: #F6C83D;
+    border: solid #F6C83D 1px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+}
+
+.evento {
+    position: absolute;
+    font-size: 20px;
+    display: inline-block;
+    color: #bdbdbd;
+    top: 16px;
+    margin-left: 10px;
+}
+
+.login {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background: #FFD500;
+    padding: 11px 12px 9px 12px;
+}
+
+.middle {
+    font-family: 'Google Sans';
+    text-align: center;
+    color: #BCBCBC;
+    box-sizing: border-box;
+}
+
+#google {
+    padding-top: 40px;
+    font-size: 50px;
+    margin: 5px;
+}
+
+#extended {
+    font-size: 45px;
+    margin: 0px;
+}
+
+#ilheus {
+    font-size: 16px;
+    margin: 10px;
+    padding-bottom: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #526CFD;
+    color: #FFFFFF;
+    padding: 15px 62px 15px 62px;
+}
+
+#io18 {
+    font-size: 14px;
+    margin: 7px;
+    padding-top: 25px;
+}
+
+#ioilheus {
+    font-size: 14px;
+    margin: 0 0 125px 0;
+}
+
+.info {
+    position: relative;
+    margin-left: 8%;
+}
+
+.info2 {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 35px 35px 35px 35px;
+    margin: auto 100px;
+}
+
+.info p {
+    display: inline-block;
+    color: #707070;
+    font-size: 31px;
+    font-family: 'Google Sans';
+    background: #FFD500;
+    padding: 55px 55px 55px 55px;
+    width: 40%;
+    height: 43%;
+    text-align: right;
+}
+
+.img {
+    width: 50%;
+    margin: 80px 10px 0 500px;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 160px;
+    width: 20%;
+
+}
+
+.info3 {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 25px 25px 25px 25px;
+    margin: 0 100px;
+    margin-left: 47%;
+}
+
+.mapa {
+    margin-bottom: 5%;
+}
+
+.mapa p {
+    display: inline-block;
+    font-family: 'Google Sans';
+    color: #ffffff;
+    font-size: 30px;
+    background: #526CFD;
+    padding: 3% 3% 3% 3%;
+    width: 34%;
+    height: 30%;
+    text-align: left;
+}
+
+.graphs3 {
+    margin-top: 100px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: 13%;
+
+}
+
+.maskgroup {
+    width: 55%;
+    position: absolute;
+    left: 16.8%;
+    top: 208.5%;
+    margin-bottom: 5%;
+}
+
+.cadastraremail {
+    position: relative;
+    margin-top: 10%;
+    background: #FFD500;
+    padding: 3%;
+    text-align: center;
+}
+
+.fa-paper-plane {
+    box-sizing: border-box;
+    font-size: 15px;
+    background: #526CFD;
+    padding: 10px;
+    border-radius: 60px;
+    color: #ffffff;
+}
+
+.recebernovidades {
+    display: block;
+    font-size: 30px;
+    font-family: 'Google Sans';
+    color: #FFFFFF;
+}
+
+#enderecoemail {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 10px;
+    width: 30%;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 90px;
+    font-size: 20px;
+    color: #BDBDBD;
+    padding: 30px 40px 40px 40px;
+    margin-left: 80%;
+}

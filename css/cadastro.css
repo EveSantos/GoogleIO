@@ -1,0 +1,127 @@
+html {
+    font-family: 'Google Sans';
+    background: #F9F9F9;
+}
+table{
+    background: #FFFFFF;
+}
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+header {
+    font-family: 'Google Sans';
+}
+.menu{
+    width: 69%;
+    margin: 0 10% 0 15.5%;
+}
+
+.topo {
+    padding: 8px 0 8px 0;
+    background: #FFFFFF;
+    position: relative;
+    width: 930px;
+    margin: 0 auto;
+}
+.imgtopo{
+    margin-left: 10px;
+}
+.evento {
+    position: absolute;
+    font-size: 20px;
+    display: inline-block;
+    color: #bdbdbd;
+    top: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.login {
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    display: inline-block;
+    font-size: 20px;
+    color: #707070;
+}
+h1{
+    box-sizing: border-box;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 28px;
+    background: #FFD500;
+}
+
+table, th, td {
+    border: 1px solid #EEEEEE;
+    border-collapse: collapse;
+    color: #707070;
+    font-size: 20px;
+}
+
+td {
+    text-align: left;
+}
+a{
+    line-height: 1.2;
+    text-decoration: none;
+    color: #707070;
+    margin-left: 10px;
+}
+.letrasmini{
+    font-size: 12px;
+    color: #707070;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.letrasmini2{
+    font-size: 12px;
+    color: #707070;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#dados{
+    width: 85%;
+    border: none;
+    border-bottom: 2px solid #707070;
+    margin: 0 0 0 25px;
+    padding: 2% 2%;
+}
+::placeholder{
+    color: #424242;
+}
+.escolha{
+    display: inline-block;
+    color:#BDBDBD;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.lista{
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.margem{
+    display: inline-block;
+    color:#BDBDBD;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 30%;
+}
+footer {
+    background: #EEEEEE;
+}
+.icones li{
+    margin: 15px;
+}
+.icones{
+    height: 40px;
+    font-size: 20px;
+    color: #BDBDBD;
+    padding: 50px 40px 40px 40px;
+    margin-left: 80%;
+    margin-top: 0;    
+}
