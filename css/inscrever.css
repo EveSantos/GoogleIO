@@ -50,27 +50,29 @@ button{
     text-align: center;
     box-sizing: border-box;
 }
-#google{
+#google {
     padding-top: 40px;
-    font-size: 50px;
-    margin: 5px;
-}
-#extended{
     font-size: 45px;
-    margin: 0px;
+    margin: 10px 0 25px 0;
 }
-#ilheus{
+
+#extended {
+    font-size: 45px;
+    margin: 10px 0 10px 0 ;
+}
+
+#ilheus {
     font-size: 16px;
-    margin: 8px;
-    padding-bottom: 3px;
+    margin: 5px 0 5px 0;
 }
-#io18{
+#io18 {
     font-size: 14px;
-    margin: 8px;
+    margin: 10px 0 0 0;
 }
-#ioilheus{
+
+#ioilheus {
     font-size: 14px;
-    margin: 0 0 15px 0;
+    margin: 5px 0 40px 0px;
 }
 
 /* Fórmulário de inscrição */
@@ -79,10 +81,14 @@ button{
 form{
     font-family: 'Google Sans';
     box-sizing: border-box;
-    height: 1005px;
-    width: 500px;  
+    width: 40%;
     margin:0 auto;  
     border: 2px solid #000000;
+    border: none;
+    background: #F9F9F9;
+    padding-bottom: 25px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .cadastromini{
     background: #FFD500;
@@ -96,13 +102,20 @@ form{
     margin-left: 15px;
     margin-top: 15px;
 }
+
+input{
+    color: #707070;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 ::placeholder{
-    color: #EEEEEE;
+    color: #dbd8d8;
 }
-form{
-    border: none;
-    background: #F9F9F9;
-}
+
 #dados{
     background: #F9F9F9;
     width: 90%;
@@ -134,7 +147,7 @@ form{
     margin: 2%;
     font-size: 20px;
 }
-ul a{
+a{
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -142,8 +155,10 @@ ul a{
     background: #526CFD;
     color: #FFFFFF;
     padding: 15px 40px 15px 40px;    
-    margin-left: 3%;
+    margin-left: 15px;
 }
+
+
 footer{
     background: #FAFAFA;
 }
