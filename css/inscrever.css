@@ -4,36 +4,46 @@
     font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
-header{
-    padding: 16px;
-    font-family: 'Google Sans';
-}
-.topo{
-    position: relative;
-    width: 940px;
+
+/* Topo da Página */
+
+
+header {
+    width: 80%;
     margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Google Sans';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
 }
-.evento{  
+button{
+    height: 80%;
+    color: #FFFFFF;
+    background-color: #F6C83D;
+    border: solid #F6C83D 1px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+}
+
+.evento {
     position: absolute;
     font-size: 20px;
-    display: inline-block; 
-    color: #bdbdbd;  
-    top:16px;
+    display: inline-block;
+    color: #bdbdbd;
+    top: 16px;
     margin-left: 10px;
 }
-.login{  
-    position: absolute;  
-    top: 6px;
-    right: 0px;  
-    display: inline-block;
-    font-size: 16px;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    background: #FFD500;
-    padding: 11px 12px 9px 12px;
-}
+
+/* Seção Principal */
+
+
 .middle{
     font-family: 'Google Sans';
     color: #BCBCBC;
@@ -62,6 +72,10 @@ header{
     font-size: 14px;
     margin: 0 0 15px 0;
 }
+
+/* Fórmulário de inscrição */
+
+
 form{
     font-family: 'Google Sans';
     box-sizing: border-box;
