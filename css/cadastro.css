@@ -12,8 +12,12 @@ table{
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
 
+
+/* Topo da Página */
+
+
 header {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -34,9 +38,63 @@ header {
     margin-left: 10px;
 }
 
+
+/* Perfil do Usuário */
+
+
 .menu{
-    width: 69%;
-    margin: 0 10% 0 15.5%;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu td, .menu th {
+    padding: 8px;
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+th:first-child{
+    width: 25%;
+    font-size: 28px;
+    font-family: 'Google Sans';
+    
+}
+
+.form-title{
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    font-size: 28px;
+    background: #FFD500;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+}
+th{
+    border-collapse: collapse;
+    color: #707070;
+    font-size: 20px;
+}
+
+
+
+/* table.profile{
+    display: flex;
+    margin: 0 auto;
+    empty-cells: show;
+}
+th{
+    display: flex;
+    margin: 0 auto;
+    padding:0 100px 0 100px;
+}
+.menu{
+    width: 70%;
+    margin: 0 auto;
 }
 h1{
     box-sizing: border-box;
@@ -44,6 +102,7 @@ h1{
     color: #FFFFFF;
     font-size: 28px;
     background: #FFD500;
+    margin: 0;
 }
 
 table, th, td {
@@ -101,7 +160,8 @@ a{
     font-size: 20px;
     margin-top: 2%;
     margin-bottom: 30%;
-}
+} */
+
 footer {
     background: #EEEEEE;
 }
