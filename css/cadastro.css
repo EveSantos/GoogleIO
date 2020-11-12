@@ -49,7 +49,6 @@ header {
     margin: 0 auto;
 }
 
-.menu td,
 .menu th {
     padding: 15px;
     text-align: left;
@@ -76,24 +75,25 @@ a {
     text-decoration: none;
     color: #707070;
     font-size: 20px;
-}
-a:first-child {
-    padding-top: 20px;
+    margin-left: 20px;
 }
 
 th {
     border-collapse: collapse;
     color: #707070;
     font-size: 20px;
+    border: 1px solid #BCBCBC;
+}
+
+th:first-child {
+    border-bottom-color: white;
 }
 
 /* Estilização table */
 
 /* Opções no menu lateral esqeurdo */
-button {
-    border: none;
-    padding: 0;
-    background-color: white;
+table {
+    border: 1px solid #BCBCBC;
 }
 
 table tr th:first-child {
@@ -105,12 +105,16 @@ td:first-child {
     margin-left: 0;
 }
 
+td:last-child {
+    border: 1px solid #BCBCBC;
+}
+
+
 td a {
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
+    padding-top: 20px; 
 }
-
 /*Eestilização Informações Pessoais*/
 
 .letrasmini {
@@ -158,78 +162,6 @@ td a {
     font-size: 20px;
     margin-top: 2%;
     margin-bottom: 50px;
-}
-
-/* Estilização Informações do Evento */
-
-.event-info{
-    display: none;
-}
-
-.event-title {
-    display: none;
-    box-sizing: border-box;
-    padding: 15px 15px 15px 15px;
-    color: #FFFFFF;
-    font-size: 28px;
-    background: #526CFD;
-}
-
-#graphs1 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 15pxs;
-    width: 10%;
-    margin: 18px 5px 5px 5px;
-}
-
-#google {
-    position: relative;
-    display: inline-block;
-    color: #BCBCBC;
-    font-size: 30px;
-    margin-left: 15px;
-    margin-top: 33px;
-}
-
-#google2 {
-    position: relative;
-    display: inline-block;
-    color: #BCBCBC;
-    font-size: 30px;
-    margin: 5px;
-    margin-top: 33px;
-    margin-left: 22%;
-}
-
-.inline-event {
-    display: flex;
-    flex-direction: row;
-}
-
-.letrasmini-event {
-    font-size: 12px;
-    color: #707070;
-    margin-left: 15px;
-    margin-top: 30px;
-}
-
-.letrasmini-event {
-    display: inline;
-    font-size: 12px;
-    color: #707070;
-    margin-left: 25px;
-    margin-top: 15px;
-}
-
-#dados-event {
-    
-    display: inline;
-    border: none;
-    border-bottom: 2px solid #707070;
-    margin: 0 0 0 25px;
-    padding: 2% 2%;
-    margin-bottom: 50%;
 }
 
 /* Estilização do Footer */
