@@ -167,26 +167,16 @@ a:first-child{
     padding: 2% 2%;
     margin-bottom: 50%;
 }
-}
 
-
-
-
-/* Estilização do Footer */
 footer {
-    background: #EEEEEE;
-}
-
-.icones li {
-    margin: 15px;
-}
-
-.icones {
-    height: 40px;
+    box-sizing: border-box;
+    height: 100%;
     font-size: 20px;
     color: #BDBDBD;
-    padding: 50px 40px 40px 40px;
+    padding: 50px 40px 50px 40px;
     margin-left: 80%;
-    margin-top: 0;
 }
 
+.icon{
+    color: #BDBDBD;
+}
