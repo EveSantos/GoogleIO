@@ -2,9 +2,11 @@ html {
     font-family: 'Google Sans';
     background: #F9F9F9;
 }
-table{
+
+table {
     background: #FFFFFF;
 }
+
 @font-face {
     font-family: 'Google Sans';
     font-style: normal;
@@ -26,7 +28,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .evento {
@@ -41,39 +43,45 @@ header {
 
 /* Perfil do Usuário */
 
-.menu{
+.menu {
     border-collapse: collapse;
     width: 70%;
     margin: 0 auto;
 }
 
-.menu td, .menu th {
+.menu td,
+.menu th {
     padding: 15px;
     text-align: left;
     margin-left: 30px;
     padding-left: 30px;
 }
 
-th:first-child{
+th:first-child {
     width: 25%;
     font-size: 28px;
     font-family: 'Google Sans';
-    
+
 }
 
-.form-title{
+.form-title {
     padding: 15px 15px 15px 15px;
     color: #FFFFFF;
     font-size: 28px;
     background: #FFD500;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: #707070;
     font-size: 20px;
 }
-th{
+a:first-child {
+    padding-top: 20px;
+}
+
+th {
     border-collapse: collapse;
     color: #707070;
     font-size: 20px;
@@ -82,117 +90,162 @@ th{
 /* Estilização table */
 
 /* Opções no menu lateral esqeurdo */
+button {
+    border: none;
+    padding: 0;
+    background-color: white;
+}
 
-table tr th:first-child{
+table tr th:first-child {
     width: 20%;
 }
-td:first-child{
+
+td:first-child {
     float: left;
     margin-left: 0;
 }
-td a{
-   display: flex;
-   flex-direction: column; 
-   padding-bottom: 15px;
+
+td a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
 }
 
 /*Eestilização Informações Pessoais*/
 
-.letrasmini{
+.letrasmini {
     font-size: 14px;
     color: #707070;
     margin-left: 15px;
     margin-top: 15px;
 }
-.letrasmini2{
+
+.letrasmini2 {
     font-size: 12px;
     color: #707070;
-    margin: 15px 0 0 25px ;
+    margin: 15px 0 0 25px;
 
 }
-#dados{
+
+#dados {
     width: 85%;
     border: none;
     border-bottom: 2px solid #707070;
     margin: 0 0 0 25px;
     padding: 2% 2%;
 }
-::placeholder{
+
+::placeholder {
     color: #424242;
 }
-.escolha{
+
+.escolha {
     display: inline-block;
-    color:#BDBDBD;
+    color: #BDBDBD;
     font-size: 17px;
     margin-top: 2%;
 }
-.lista{
+
+.lista {
     display: inline-block;
     margin-left: 3%;
     margin-top: 3%;
 }
 
-.margem{
+.margem {
     display: inline-block;
-    color:#BDBDBD;
+    color: #BDBDBD;
     font-size: 20px;
     margin-top: 2%;
     margin-bottom: 50px;
-} 
+}
 
-/* table.profile{
-    display: flex;
-    margin: 0 auto;
-    empty-cells: show;
+/* Estilização Informações do Evento */
+
+.event-info{
+    display: none;
 }
-th{
-    display: flex;
-    margin: 0 auto;
-    padding:0 100px 0 100px;
-}
-.menu{
-    width: 70%;
-    margin: 0 auto;
-}
-h1{
+
+.event-title {
+    display: none;
     box-sizing: border-box;
     padding: 15px 15px 15px 15px;
     color: #FFFFFF;
     font-size: 28px;
-    background: #FFD500;
-    margin: 0;
+    background: #526CFD;
 }
 
-table, th, td {
-    border: 1px solid #EEEEEE;
-    border-collapse: collapse;
+#graphs1 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 15pxs;
+    width: 10%;
+    margin: 18px 5px 5px 5px;
+}
+
+#google {
+    position: relative;
+    display: inline-block;
+    color: #BCBCBC;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 33px;
+}
+
+#google2 {
+    position: relative;
+    display: inline-block;
+    color: #BCBCBC;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 33px;
+    margin-left: 22%;
+}
+
+.inline-event {
+    display: flex;
+    flex-direction: row;
+}
+
+.letrasmini-event {
+    font-size: 12px;
     color: #707070;
-    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
-td {
-    text-align: left;
-}
-a{
-    line-height: 1.2;
-    text-decoration: none;
+.letrasmini-event {
+    display: inline;
+    font-size: 12px;
     color: #707070;
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 
-*/
+#dados-event {
+    
+    display: inline;
+    border: none;
+    border-bottom: 2px solid #707070;
+    margin: 0 0 0 25px;
+    padding: 2% 2%;
+    margin-bottom: 50%;
+}
 
+/* Estilização do Footer */
 footer {
     background: #EEEEEE;
 }
-.icones li{
+
+.icones li {
     margin: 15px;
 }
-.icones{
+
+.icones {
     height: 40px;
     font-size: 20px;
     color: #BDBDBD;
     padding: 50px 40px 40px 40px;
     margin-left: 80%;
-    margin-top: 0;    
+    margin-top: 0;
 }
